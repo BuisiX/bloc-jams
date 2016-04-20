@@ -11,15 +11,17 @@
  body.landing {
     background-color: white;  /* sets the background color to an RGB value (see below) */
  }
+
  .navbar {
      padding: 2rem;
      background-color: rgb(255,255,255);
  }
  
  .navbar .logo {
-     position: relative; /* positioning will be explained in a resource */
-     left: .5rem;
+     position: absolute;  positioning will be explained in a resource 
+     left: 100px;
  }
+
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
      min-height: 600px;  /* hero content element must be _at least_ 600 pixels */
@@ -28,6 +30,7 @@
      background-position: center center;
      background-size: cover;
  }
+
 .hero-content .hero-title {
      position: absolute;             /* positioning will be explained in a resource */
      top: 40%;                       /* positioning will be explained in a resource */
@@ -43,6 +46,7 @@
      letter-spacing: 0.5rem;         /* puts 0.5 root ems worth of space between each letter */
      text-shadow: 1px 1px 0px rgb(58,23,63); /* creates a shadow underneath the text for readability over the image */
  }
+
 .selling-points {
      position: relative;
      display: table;
