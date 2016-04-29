@@ -10,7 +10,7 @@
  }
 
  body {
-     font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
+     font-family: 'Arial'; /* sets our font to the "Open Sans" typeface */
      color: black;             /* sets the text color to white */
      min-height: 100%;         /* says the height of the body must be, at minimum, 100% of the window */
  }
@@ -57,3 +57,14 @@
  @media (min-width: 1024px) {
    /* Style information will go here */
  }
+
+.clearfix::before,
+.clearfix::after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+}
+
+.clearfix::after {
+   clear: both;
+}
