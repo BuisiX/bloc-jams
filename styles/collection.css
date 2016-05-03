@@ -1,0 +1,41 @@
+ body.collection {
+    position: relative;
+    background-image: url(../assets/images/backgrounds/whitewater.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: 0 150px;
+     background-size: 100%;
+}
+     
+ .cxos {
+     position: relative;
+ }
+ 
+ .collection-cxos-container {
+     position: relative;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ .collection-cxos-container .caption {
+     margin-top: 10px;
+ }
+ 
+ .collection-cxos-container .caption p {
+     font-size: 1rem;
+     font-weight: 300;
+     color: rgba(0,0,0, 0.6);
+ }
+ 
+ .collection-cxos-container .caption p a {
+     color: rgba(0,0,0, 0.6);
+ }
+ 
+ .collection-cxos-container .caption p a.cxos-name {
+     color: black;
+ }
+ 
+ .collection-cxos-container img {
+     width: 80%;
+ }
