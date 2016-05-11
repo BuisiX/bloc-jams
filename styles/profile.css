@@ -1,0 +1,35 @@
+ body.profile {
+     background-image: url(../assets/images/backgrounds/whitewater.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center;
+     background-size: cover;
+ }
+ 
+ .profile-cover-art {
+     position: relative;
+     left: 20%;
+     margin-top: 1rem;
+     width: 60%;
+ }
+ 
+ .profile-view-details {
+     position: relative;
+     top: 1.5rem;
+     padding: 1rem;
+ }
+ 
+ .profile-view-details .profile-view-title {
+     font-weight: 300;
+     font-size: 2rem;
+ }
+ 
+ .profile-view-details .profile-view-location {
+     font-weight: 300;
+     font-size: 1.5rem;
+ }
+ 
+ .profile-view-details .profile-view-product {
+     font-weight: 300;
+     font-size: 0.75rem;
+ }

@@ -7,35 +7,35 @@
      background-size: 100%;
 }
      
- .cxos {
+ .portfolios {
      position: relative;
  }
  
- .collection-cxos-container {
+ .collection-portfolios-container {
      position: relative;
      margin-top: 30px;
      margin-bottom: 20px;
      text-align: center;
  }
  
- .collection-cxos-container .caption {
+ .collection-portfolios-container .caption {
      margin-top: 10px;
  }
  
- .collection-cxos-container .caption p {
+ .collection-portfolios-container .caption p {
      font-size: 1rem;
      font-weight: 300;
      color: rgba(0,0,0, 0.6);
  }
  
- .collection-cxos-container .caption p a {
+ .collection-portfolios-container .caption p a {
      color: rgba(0,0,0, 0.6);
  }
  
- .collection-cxos-container .caption p a.cxos-name {
+ .collection-portfolios-container .caption p a.portfolios-name {
      color: black;
  }
  
- .collection-cxos-container img {
+ .collection-portfolios-container img {
      width: 80%;
  }
